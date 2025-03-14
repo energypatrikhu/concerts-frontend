@@ -35,7 +35,7 @@
 	</a>
 
 	{#if concerts.length === 0}
-		<p class="text-gray-400">Betöltés...</p>
+		<p class="text-gray-400">Nincsenek előadások</p>
 	{:else}
 		<div class="overflow-x-auto">
 			<table class="table-auto w-full border-collapse border border-gray-700">
